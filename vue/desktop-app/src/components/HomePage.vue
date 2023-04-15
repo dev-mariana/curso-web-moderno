@@ -12,6 +12,7 @@
       >
       </v-file-input>
     </v-form>
+
     <div class="pills">
       <PillComponent
         v-for="item in groupedWords"
@@ -26,7 +27,6 @@
 <script>
 import PillComponent from "./PillComponent.vue";
 import { ipcRenderer } from "electron";
-
 export default {
   components: {
     PillComponent,
@@ -53,7 +53,6 @@ export default {
 .home {
   margin: 20px;
 }
-
 .pills {
   display: flex;
   flex-wrap: wrap;

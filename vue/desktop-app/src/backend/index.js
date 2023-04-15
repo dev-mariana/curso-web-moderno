@@ -1,4 +1,5 @@
 const { ipcMain } = require("electron");
+
 const pathToRows = require("./pathsToRows");
 const prepareData = require("./prepareData");
 const groupWords = require("./groupWords");
